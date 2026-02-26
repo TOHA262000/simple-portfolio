@@ -3,6 +3,7 @@
     background-image: url(../images/developer.png),url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: top left,bottom right;
+    background-color: #FFF8F3;
 }
 
 nav {
@@ -59,11 +60,42 @@ nav li a {
     font-size: 85px;
     font-weight: bold;
 }
-.banner-short{
-    font-size: 18px;
-}
 .banner-img{
     width: 585px;
+}
+.about{
+    margin:130px auto;
+    background-color: #FFF8F3;
+    display: flex;
+    justify-content: center;
+    padding: 131px 156px;
+    max-width: 1140px;
+    border-radius: 10px;
+}
+.about-contents{
+    
+    text-align: center;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color: white;
+    
+}
+.about-title{
+    font-size: 35px;
+    font-weight: bold;
+}
+.description{
+    font-size: 18px;
+    color: #757575;
+}
+.abt-info{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+.abt-info h4{
+    font-weight: bold;
+    margin: 0;
 }
 .btn-primary{
     background-color: #FD6E0A;
