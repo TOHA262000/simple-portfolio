@@ -164,7 +164,30 @@ nav li a {
 }
 
 
-
+.footer-items{
+    display: flex;
+    background-color:#FFF8F3 ;
+    padding: 130px 230px;
+    justify-content: space-between;
+    gap: 20px;
+}
+.icons img{
+ margin: 10px 20px;
+}
+.footer-content form input{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    display: block;
+    margin: 20px 0px;
+}
+.footer-content form textarea{
+    height: 60px;
+    border: none;
+    padding: 20px;
+    border-radius: 5px;
+    display: block;
+}
 /* Universal Css */
 .text-center{
     text-align: center;
